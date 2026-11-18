@@ -1,0 +1,32 @@
+{
+  "torch": "2.8.0+cpu",
+  "device": "cpu",
+  "numpy": "2.3.5",
+  "seed": 360,
+  "train_originals": 10000,
+  "validation_originals": 2000,
+  "train_per_class": 1000,
+  "valid_per_class": 200,
+  "epochs": 6,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "levels": [
+    25,
+    50,
+    75,
+    100
+  ],
+  "classes": [
+    "airplane",
+    "apple",
+    "bicycle",
+    "car",
+    "cat",
+    "dog",
+    "fish",
+    "flower",
+    "house",
+    "tree"
+  ]
+}

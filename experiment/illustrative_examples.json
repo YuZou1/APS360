@@ -1,0 +1,37 @@
+{
+  "rule": "The two examples were selected to show disagreements in both directions.",
+  "cnn_gru_only_correct_at_50": 216,
+  "cnn_only_correct_at_50": 186,
+  "examples": [
+    {
+      "label": "airplane",
+      "validation_index": 60,
+      "completion": 50,
+      "cnn_top3": [
+        "dog",
+        "car",
+        "airplane"
+      ],
+      "cnn_gru_top3": [
+        "airplane",
+        "car",
+        "dog"
+      ]
+    },
+    {
+      "label": "airplane",
+      "validation_index": 29,
+      "completion": 50,
+      "cnn_top3": [
+        "airplane",
+        "car",
+        "house"
+      ],
+      "cnn_gru_top3": [
+        "house",
+        "airplane",
+        "car"
+      ]
+    }
+  ]
+}
